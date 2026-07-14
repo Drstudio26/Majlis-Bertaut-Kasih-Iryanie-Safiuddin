@@ -3528,6 +3528,16 @@ body.site-ready {
   }
 }
 
+/* FIX JARAK SECTION — PHONE */
+
+@media (max-width: 600px) {
+  #main-content section:not(#hero) {
+    min-height: auto;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
 /* =========================================================
    END OF STYLE.CSS V7
 ========================================================= */
