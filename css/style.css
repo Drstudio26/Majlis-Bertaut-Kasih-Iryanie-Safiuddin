@@ -2899,9 +2899,11 @@ a {
 
   height: 2px;
 
+  margin: 18px auto;
+
   border-radius: 999px;
 
-  background: linear-gradient(90deg, transparent, #b08a45, transparent);
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
 }
 
 .doa-subtitle {
